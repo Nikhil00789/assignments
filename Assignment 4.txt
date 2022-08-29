@@ -1,0 +1,80 @@
+
+# Write a python script to take your name as input from the user and then print it.
+
+#Take input from user
+
+name = input("Name:")
+
+#output:
+print("Entered Name:")
+print(name)
+
+number = int(input("Number:"))
+print(number)
+
+print(type(number))
+
+
+number_1 = int(input("Number:"))
+number_2= int(input("Number2:"))
+
+total = number_1 + number_2
+
+print(total)
+
+
+PI = 3.142
+
+radius=float(input("Enter Radius :"))
+
+#Operation
+#Formula =PI*radius*radius
+
+area_of_circle =PI*radius*radius
+print(area_of_circle)
+
+
+
+number=float(input("Enter number :"))
+
+#Operation
+#Formula =number*number
+
+square_number=number*number
+print(square_number)
+
+
+HALF = 0.5
+
+base = float(input("Enter Base:"))
+height =float(input("Enter Height:"))
+
+#operation
+#area
+
+area=HALF*base*height
+print(area)
+
+number_1 =float(input("Enter Number 1:"))
+number_2 =float(input("Enter Number 2:"))
+number_3 =float(input("Enter Number 3:"))
+
+#operation
+
+
+average=(number_1+number_2+number_3)/3
+
+print(average)
+
+
+number_1=float(input("Enter Number 1:"))
+number_2 =float(input("Enter Number 2:"))
+number_3 =float(input("Enter Number 3:"))
+
+#operation
+
+
+Volume_cuboid=(number_1*number_2*number_3)
+
+print(Volume_cuboid)
+

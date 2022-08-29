@@ -1,0 +1,84 @@
+Assignment 5
+
+number= int(input("Enter a number:"))
+
+#use case,number= 2534,output=253
+#operation,number/10
+
+number = int(number/10)
+
+print("New value of number:")
+print(number)
+
+
+
+number= int(input("Enter a number:"))
+
+#use case,number= 2534,output=253
+#operation,number%10
+
+number = int(number%10)
+
+print("New value of number:")
+print(number)
+
+
+number_1= int(input("Enter a number:"))
+number_2= int(input("Enter a number:"))
+
+#use case,number_1= 10,number_2=20,output=20,10
+#operation,number%10
+
+number_1,number_2 =number_2,number_1
+print("New value of number_1:")
+print(number_1)
+print("New value of number_2:")
+print(number_2)
+
+number_1= int(input("Enter a number:"))
+power= int(input("Enter a number:"))
+
+#use case,number_1= 10,number_2=20,output=20,10
+
+
+
+#operation,number**power
+
+answer = number_1**power
+print("Answer:")
+print(answer)
+
+number= int(input("Enter a number:"))
+answer= int(number/100)
+print("Answer: ")
+print(answer)
+
+number= int(input("Enter a number:"))
+number= int(number/10)
+answer = (number%10)
+
+print("Answer: ")
+print(answer)
+
+
+list_1 =[0,3,4,5,2]
+
+number = int(input("Enter Number:"))
+             
+
+print(10 in list_1)
+
+list_1 =[0,3,4,5,2]
+
+number = int(input("Enter Number:"))
+             
+
+print(number not in list_1)
+
+
+
+list_1 =[0,3,4,5,2]
+list_2 =[0,3,4,5,2]
+
+print(list_1 is list_2)
+print(list_1 == list_2)
